@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/flex.css" type="text/css">
+    <title>Flex css</title>
+</head>
+<body>
+   <marquee> <h2>propiedad flexbox</h2></marquee>
+    <p>flexbox, tambien conocido como modelo de caja flexible es un diseño uni dimencional que permite crear un diseño mas eficiente y predecible en 
+       situaciones donde el tamaño de los elemrntos es desconocido o dinamico se organizan los elementos utilizando contenedores y esos contenedores son flexibles 
+    </p> <br>
+    <p>
+        para utilizar flexbox deben declarar un contenedor como contenedor flexible utilizando el display: flex o el display:inline_flex
+        los elementos hijos de este contenedor se convierten automaticamente en elementos flexibles 
+    </p> <br>
+    <marquee behavior="" direction=""><h2>Flex</h2></marquee>
+    <p>
+        cuando se aplica display:flex; a un contenedor este se convierte en conbtenedor fleible que distribuye su contenido de manera flexible 
+        a lo largo del eje principal (HORIZONTAL--de izquierda a derecha)
+        Los elementos secundario dentro de este contenedor flex se comportaran como bloques 
+        y se ajustaran automaticamente para rellenar el contenedor en la direccion principal  
+    </p>
+
+    <div class="contenedor1 flex-container">
+        <div class="item E1">elemento 1</div>
+        <div class="item E2">elemento 2</div>
+        <div class="item E3">elemento 3</div>
+    </div> <br>
+    <marquee behavior="" direction=""><h2>
+        inline-flex
+    </h2></marquee>
+    <p>
+        este valor es similar a flex pero el contenedor flexible se comporta como un elemento en linea emn lugar de un bloque.
+        esto significa que ocupara solo el ancho necesario y permitiras que otros elementos en linea coexistan en al misma linea.  
+    </p><br>
+    <div class="contenedor2 inline-flex-container">
+        <div class="elemento EL1">elemento 1</div>
+        <div class="elemento EL2">elemento 2</div>
+        <div class="elemento EL3">elemento 3</div>
+        <div class="elemento EL4">elemento 4</div>
+    </div><br>
+</body>
+</html>

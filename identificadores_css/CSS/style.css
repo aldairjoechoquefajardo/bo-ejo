@@ -1,0 +1,42 @@
+/*comentario CSS*/
+
+/*identificador de etqiueta*/
+
+*{
+    background-color: burlywood;
+    
+}
+
+h1{
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*identificador mediante un "id" */
+#nombre {
+    color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+}
+/*identificador class*/
+.texto{
+    color: steelblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+/*grupo de selectores*/
+#texto2,#texto3,.texto4{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*CAJA*/
+#caja{
+    color: white;
+    border: solid 10px black;
+    padding: 30px;
+    margin: 50px;
+}

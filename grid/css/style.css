@@ -1,0 +1,108 @@
+p{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grit-container{
+    display: grid;
+    border:  5px solid red;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: 200px 75px;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    border: 2px solid aqua;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.item1{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+.item2{
+    background-color: violet;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+.item3{ 
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.item4{ 
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.item5{
+    border: solid 5px blue;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.contenedor-fracciones{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.item6{
+    background-color: blueviolet;
+    margin: 1px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor-repeat{
+    border: 2px solid aqua;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr repeat(2,2fr); /*1fr 2fr 2fr*/
+    grid-template-rows: repeat(3,5fr) repeat(2,1fr); /* 5fr 5fr 5fr 1fr 1fr*/
+}
+.item7{
+    background-color: aquamarine;
+    margin: 1px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor-minmax{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,600px));
+    grid-template-rows: repeat(2,2fr);
+    align-items: center;
+    justify-content: center;
+}
+.elemento{
+    border: 2px dashed violet;
+    background-color: brown;
+    color: #2c1df5;
+    text-align: center;/*vertical*/
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;/*horizontal*/
+
+}
+.contenedor-gap{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3,150px);
+   /* grid-column-gap: 10px;
+    grid-row-gap: 30px;*/
+    grid-gap: 30px 30px; /*(fila, columna)*/
+}

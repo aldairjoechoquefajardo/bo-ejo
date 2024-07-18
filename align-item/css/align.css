@@ -1,0 +1,110 @@
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: turquoise;
+    background-color: blueviolet;
+}
+p{
+    text-align: justify;
+}
+.stretch-container{
+    border: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    line-height: 120px;
+}
+.item1{
+    width: 70px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stretch-container1{
+    border: solid 2px aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 200px;
+    line-height: 120px;
+}
+.item2{
+    width: 70px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stretch-container2{
+    border: solid 2px violet;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+    line-height: 120px;
+}
+.item3{
+    width: 70px;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stretch-container3{
+    border: solid 2px yellowgreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    line-height: 120px;
+}
+.item4{
+    width: 70px;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.baseline-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    height: 200px;
+    line-height: 120px;
+    border: solid 5px darkblue;
+}
+.item5{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 10px;
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.item5 h3{
+    background-color: burlywood;
+}
+

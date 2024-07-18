@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>GRID CSS</title>
+</head>
+<body>
+    <h2>GRID</h2>
+    <p>
+        Grid CSS nace de la necesidad del sistema GRID añadiendole numerosas mejoras 
+        ya caracteristicas que permiten crear rapidamente cuadriculas flexibles 
+        y potentes de forma practica e instantanea. <br>
+        Para crear diseños basados en  GRID necesitamos tener en cuenta una serie de conceptos 
+        que utilizaremos como ser: <br>
+        - contenedor: Ele elemento padre que definira la cuadricula eo regilla. <br>
+        - item: Cada uno de los hijos dentro del contenedor que contiene la cuadricula(elemento contenedor) <br>
+        - celda(grid cell): cada uno de los cuadritos (unidad minima) de la cuadricula. <br>
+        - Area: (grid area) es la reegion o conjunto de celdas de la cuadricula <br>
+        - Banda: (grid track) este es la banda horintal o vertical de celdas de la cuadricula <br>
+        - line (grid line) es el separador horizontal o vertical de las celdas de la cuadricula. <br> <br>
+        En grid la forma principal de definir una cuadricula es indicar el tamaño de sus filas y sus columnas 
+        de forma explicita. Para ello solo tenemos que usar las propiedades CSS que son <b>grid-temple-colums(columnas)</b>
+        <b>grid-temple-rows (filas)</b>
+    </p>
+    <div class="grit-container">
+        <div class="item item1">Item1</div>
+        <div class="item item2">Item2</div>
+        <div class="item item3">Item3</div>
+        <div class="item item4">Item4</div>
+    </div>
+    <h2>Unidad Fraccion Restante (FR)</h2>
+    <div class="contenedor-fracciones">
+        <div class="item5">1</div>
+        <div class="item5">2</div>
+        <div class="item5">3</div>
+        <div class="item5">4</div>
+        <div class="item5">5</div>
+    </div>
+    <h2>utilizando funcion repeat()</h2>
+    <div class="contenedor-repeat">
+        <div class="item6">1</div>
+        <div class="item6">2</div>
+        <div class="item6">3</div>
+        <div class="item6">4</div>
+        <div class="item6">5</div>
+        <div class="item6">6</div>
+        <div class="item6">7</div>
+        <div class="item6">8</div>
+        <div class="item6">9</div>
+        <div class="item6">10</div>
+        <div class="item6">11</div>
+        <div class="item6">12</div>
+        <div class="item6">13</div>
+        <div class="item6">14</div>
+        <div class="item6">15</div>
+    </div>
+    <h2>funcion minmax(tammin,tamamax)</h2>
+    <div class="contenedor-minmax">
+        <div class="item7">1</div>
+        <div class="item7">2</div>
+        <div class="item7">3</div>
+        <div class="item7">4</div>
+    </div>
+    <h2>PROPIEDADES GRID-GAP, GRID-COLUMN-GAP, GRID-ROW-GAP</h2>
+        <p>
+            es la distancia entre filas y columnas que se denomina tambien espacio 
+            y pueden ser ajustados. <br>
+            - grid-column-gap: este define el espacio entre columnas. <br>
+            - grid-row-gap: define el espacio entre filas. <br>
+            - grid-gap: propiedad abreviada para utilizar las dos anterioles. <br>
+        </p>
+        <div class="contenedor-gap">
+            <div class="elemento">1</div>
+            <div class="elemento">2</div>
+            <div class="elemento">3</div>
+            <div class="elemento">4</div>
+            <div class="elemento">5</div>
+            <div class="elemento">6</div>
+            <div class="elemento">7</div>
+            <div class="elemento">8</div>
+            <div class="elemento">9</div>
+        </div>
+</body>
+</html>

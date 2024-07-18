@@ -1,0 +1,47 @@
+
+/*margin a los cuatro lados */
+.margen1{
+    height: 100px;
+    width: 100px;
+    border: blueviolet solid 5px;
+    margin: 50px
+}
+.margen2{
+    height: 100px;
+    width: 100px;
+    border: blue solid 5px;
+    margin-bottom: 50px;
+}
+.margen3{
+    height: 100px;
+    width: 100px;
+    border: black solid 5px;
+    
+    margin-top: 50px
+}
+.margen4{
+    height: 100px;
+    width: 100px;
+    border: yellowgreen solid 5px;
+    margin-left: 50px;
+}
+.margen5{
+    height: 100px;
+    width: 100px;
+    border: blueviolet solid 5px;
+    margin-right: 50px;
+}
+/*margen a un par de lados */
+.margen6{
+    height: 100px;
+    width: 100px;
+    border: yellowgreen solid 5px;
+    margin: 50px 400px;
+}
+/*margin a los cuatro lados*/
+.margen7{
+    height: 100px;
+    width: 100px;
+    border: yellowgreen solid 5px;
+    margin: 20px 10px 50px 100px;
+}
